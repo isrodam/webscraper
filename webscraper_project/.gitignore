@@ -1,0 +1,47 @@
+# =========================
+# Django / Python
+# =========================
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Django specific
+# =========================
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+local_settings.py
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Environment variables
+# =========================
+.env
